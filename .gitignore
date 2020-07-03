@@ -1,0 +1,3 @@
+
+*.class
+01-hello-world-rest-api/target/test-classes/META-INF/docker/com.in28minutes.rest.webservices/01-hello-world-rest-api/image-id
