@@ -1,0 +1,28 @@
+1. TODO application
+2. Used jsp and spring boot services
+JPA and Hibernate to interact with DB
+H2 as DB
+spring boot build
+packaging as WAR
+
+
+Diff between copy and add
+diff between ENTRYPOINT and CMD
+
+--------
+
+copy - to copy the file to image
+add - is copy or download using url
+
+----------------
+
+CMD : when we use CMD we can pass the command while running the docker container. the default parameters are overridden when passed.
+ENTRYPOINT : make the docker as image as executable and doesn't replace the arguments pass while running the docker image
+
+we can override the entrypoint using --entrypoint command line option.
+
+-------------
+push the image to docker
+
+Docker login
+change the docker id in pom.xml
