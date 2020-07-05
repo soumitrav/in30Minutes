@@ -8,7 +8,7 @@ public class HelloWorldBean {
 		this.message = message;
 	}
 
-	public String getMessage() {
+	public String getMesge() {
 		return message;
 	}
 

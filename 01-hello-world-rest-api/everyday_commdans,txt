@@ -26,3 +26,19 @@ docker build . -t in28min/hello-world-rest-api:cached
 docker container ls -a
 docker container prune
 docker container stop 9f79ec6396fb
+
+Execute following commands in Shell Prompt only: 
+
+docker rmi $(docker images -a -q) 
+docker stop $(docker ps -aq)
+docker rmi $(docker images -aq) -f
+---------------------
+
+use JIB plugin to create a image without DockerFile and it is a java specific plugin.
+
+------------------
+docker inspect 01-hello-world-rest-api:0.0.1-SNAPSHOT
+
+------------Fabric8 plugin to create the images----------
+with the docker file or without docker file
+old one and not in use
