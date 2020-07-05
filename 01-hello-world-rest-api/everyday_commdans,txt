@@ -1,0 +1,28 @@
+to Create a generic project : 
+replace following
+
+ADD target/hello-world-rest-api.jar hello-world-rest-api.jar
+ENTRYPOINT ["sh", "-c", "java -jar /hello-world-rest-api.jar"]
+with 
+
+ADD target/*.jar App.jar
+ENTRYPOINT ["sh", "-c", "java -jar /App.jar"]
+
+-----------------------Improve the Image level cache----------
+
+MicroServices uses - FAT jar. in order to improve the caching performance we split the fat jar with code and library jar.
+after unpacking the docker image will look like
+
+CODE - reflect the changes
+--
+LIB - will be cached
+--
+base image - Cached
+
+
+docker build . -t in28min/hello-world-rest-api:cached
+---------
+
+docker container ls -a
+docker container prune
+docker container stop 9f79ec6396fb
