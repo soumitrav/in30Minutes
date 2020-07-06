@@ -1,0 +1,34 @@
+docker run -d -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=todos -e MYSQL_USER=todos-user -e MYSQL_PASSWORD=dummytodos  -p 3306:3306 mysql:5.7
+
+docker logs 54d472acc97e25eb
+
+bridge is one of the option to communicate with another container: link is not recomnded option
+
+docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+
+default launching in bridge network
+
+to see all type of network
+docker network ls
+docker inspect bridge
+
+host : will expose all port on host machine and it will run without any issue. it will work on linux/cloud machine but won't work 
+Windows/Mac as the host is here is driver which is nothing but VM.
+
+docker container run -p 8080:8080 --network=host in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+
+3. network option is none. it will not have any network by default but we can create our own custom network
+
+docker network create mysql_custom_network
+
+docker run -d -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=todos -e MYSQL_USER=todos-user -e MYSQL_PASSWORD=dummytodos --name=mysql --network=mysql_custom_network mysql:5.7
+docker container run -p 8080:8080  -e RDS_HOSTNAME=mysql --network=mysql_custom_network in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+
+remove the name : docker rm mysql
+
+
+whenever the container is stopped and remove we loose the data which we created. in order to overcome the limitation we can use 
+volume.
+
+docker run -d -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=todos -e MYSQL_USER=todos-user -e MYSQL_PASSWORD=dummytodos --name=mysql --network=mysql_custom_network --volume=mysql-volume-data:/var/lib/mysql mysql:5.7
+docker container run -p 8080:8080  -e RDS_HOSTNAME=mysql --network=mysql_custom_network in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
