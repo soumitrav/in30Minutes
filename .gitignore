@@ -1,3 +1,5 @@
 
 *.class
 01-hello-world-rest-api/target/test-classes/META-INF/docker/com.in28minutes.rest.webservices/01-hello-world-rest-api/image-id
+04-spring-boot-react-full-stack-h2/frontend/todo-app/node_modules
+04-spring-boot-react-full-stack-h2/frontend/todo-app/build
