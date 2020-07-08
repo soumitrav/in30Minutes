@@ -1,0 +1,27 @@
+docker tag <image-id> <tag-name>:<version>
+npm install
+npm install build
+npm start
+
+"start": "set PORT=4200 react-scripts start",
+
+npm install downloads the required dependencies and create abuild
+the optimized build can be copied to nginx server
+and can be started with command.
+
+2 stage build for front end application.
+2 stage build for java as well
+
+docker-compose up
+docker-compose down
+
+docker-compose events
+docker-compose config
+docker-compose images
+docker-componse ps
+docker-compose pause
+docker-compose unpause
+docker-compose stop -- graceful kill
+docker-compose kill
+docker-compose rm
+docker-compose build ( this is used to build the image and run as well) context: * and path of docker file.
