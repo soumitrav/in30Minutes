@@ -1,0 +1,24 @@
+Service Registry : 
+	@EnableDiscoveryClient
+	change in application.properties
+	FiegnClient component scan in Application starter
+	Fiegn client change, just specify the applciation name and not url as it will be figured out by service discovery.
+	
+	all the services should be register to naming server using following property
+	eureka.client.service-url.defaultZone=http://naming-server:8761/eureka/
+	
+Service Discovery : 
+	this require a change at Feign client where we just need to specify the application name istead of url. it will go to 
+		eureka naming server find out the available instaces and will connect to it.
+
+scale up:
+  docker-compose scale currency-exchange-service=3 - deprecated
+  docker-compose up --scale currency-exchange-service=2
+  
+  we need to disable the port as follows in currency-exchange-service:
+   #ports:
+      #- "8000:8000"
+      
+   if used ports then it will throw exception saying port is already is in use. since the port is not exposed to host using 
+   ports we will not be able to check the service using localhost:8000
+      
