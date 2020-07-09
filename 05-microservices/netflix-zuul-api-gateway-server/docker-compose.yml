@@ -31,6 +31,16 @@ services:
       - naming-server
     networks:
       - currency-compose-network
+      
+  zuul-api-gateway-server:
+    image: soumitrav/netflix-zuul-api-gateway-server:0.0.1-SNAPSHOT
+    ports:
+      - "8765:8765"
+    restart: always
+    depends_on:
+      - naming-server
+    networks:
+      - currency-compose-network
   
 # Networks to be created to facilitate communication between containers
 networks:

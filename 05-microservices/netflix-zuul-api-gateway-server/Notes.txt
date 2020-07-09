@@ -1,0 +1,11 @@
+1. Enabled the Zull gatway app 8765.
+2. it will intercept every request
+3. comlibnation of Zuul+feign+ribbon+Eureka naming server
+4. Zull - Intercept the request
+	Eureka - Naming Discovery Service
+	feign+ Ribbon  - Calling the service via zuul and it helps to load balace the request and response.
+
+5. Change in Feign client as it will call the zuul gateway server and mapping will be called by zuul with the
+application name mentioned on it. 
+@FeignClient(name="netflix-zuul-api-gateway-server")
+@GetMapping("/currency-exchange-service/currency-exchange/from/{from}/to/{to}")
