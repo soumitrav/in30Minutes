@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="210680e1-aa53-4311-8b97-083b24f13714" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gqmTASpOXksPA4LmW4i2pJehsg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.baeldung" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MockExampleTest">
+    <configuration name="MathApplicationTester.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.MathApplicationTester" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.MockExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockExampleTest.testExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.MockExampleTest" />
+      <option name="METHOD_NAME" value="testExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockExampleTest.testExampleService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.MockExampleTest" />
+      <option name="METHOD_NAME" value="testExampleService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestClass.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.MyTestClass" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MathApplicationTester.testAdd" />
+      <item itemvalue="JUnit.MyTestClass.firstTest" />
+      <item itemvalue="JUnit.MockExampleTest" />
+      <item itemvalue="JUnit.MockExampleTest.testExample" />
+      <item itemvalue="JUnit.MockExampleTest.testExampleService" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MockExampleTest" />
+        <item itemvalue="JUnit.MockExampleTest.testExample" />
+        <item itemvalue="JUnit.MockExampleTest.testExampleService" />
+        <item itemvalue="JUnit.MathApplicationTester.testAdd" />
+        <item itemvalue="JUnit.MyTestClass.firstTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="210680e1-aa53-4311-8b97-083b24f13714" name="Default Changelist" comment="" />
+      <created>1598850503843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598850503843</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1598853824383">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1598853824383" />
+    <state x="172" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599115712085">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="172" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599115712085" />
+    <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598950044835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1598950044835" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1598868728261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598868728261" />
+    <state x="404" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1599325162697">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1599325162697" />
+    <state x="438" y="67" key="#xdebugger.evaluate" timestamp="1599324423080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="67" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1599324423080" />
+    <state width="452" height="466" key="DebuggerActiveHint" timestamp="1599318879708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="452" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1599318879708" />
+    <state x="463" y="81" key="FileChooserDialogImpl" timestamp="1599325057366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="81" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599325057366" />
+    <state width="1323" height="288" key="GridCell.Tab.0.bottom" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state width="1323" height="288" key="GridCell.Tab.0.center" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state width="1323" height="288" key="GridCell.Tab.0.left" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state width="1323" height="288" key="GridCell.Tab.0.right" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state width="1323" height="288" key="GridCell.Tab.1.bottom" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state width="1323" height="288" key="GridCell.Tab.1.center" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state width="1323" height="288" key="GridCell.Tab.1.left" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state width="1323" height="288" key="GridCell.Tab.1.right" timestamp="1599324460136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="288" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
+    <state x="348" y="68" key="NewModule_or_Project.wizard" timestamp="1599325061727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="348" y="68" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1599325061727" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1599324879049">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599324879049" />
+    <state x="404" y="109" width="570" height="524" key="StructurePopup" timestamp="1599193540011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="109" width="570" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1599193540011" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599193736721">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1599193736721" />
+    <state x="218" y="99" width="930" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598952384195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="218" y="99" width="930" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1598952384195" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1598954808070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598954808070" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1598953928976">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598953928976" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599290823145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599290823145" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.0-beta1/log4j-api-2.0-beta1.jar!/org/apache/logging/log4j/LogManager.class</url>
+          <line>127</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.0-beta1/log4j-api-2.0-beta1.jar!/org/apache/logging/log4j/LogManager.class</url>
+          <line>122</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/rest/RestServiceVerticle.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/rest/RestServiceVerticle.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/baeldung/MathApplicationTester.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/baeldung/MyTestClass.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/baeldung/MyClass.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/MockExample.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/baeldung/MockExampleTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/baeldung/MockExampleTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/UtilTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.baeldung.MockExampleTest" memberName="mockExample" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

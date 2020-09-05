@@ -2,7 +2,8 @@ version: '3.7'
 services:
 
   rabbitmq:
-    image: rabbitmq:3.5.3-management
+    image: rabbitmq:3.6.1-management
+    container_name: rabbitmq
     ports:
       - "5672:5672"
       - "15672:15672"

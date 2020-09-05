@@ -1,0 +1,10 @@
+create image using the docker file
+
+1. create a network
+2. start a service with name and network
+3. setup a --env variable with the perviously created service and same network
+
+docker network create currency-network
+
+docker container run -d -p 8000:8000 --network=currency-network --name=currency-exchange in28min/currency-exchange-service:0.0.1-SNAPSHOT
+docker container run -d -p 8100:8100 --network=currency-network --name=currency-conversion --env CURRENCY_EXCHANGE_URI=http://currency-exchange:8000 in28min/currency-conversion-service:0.0.1-SNAPSHOT
