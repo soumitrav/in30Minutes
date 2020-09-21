@@ -28,6 +28,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -53,19 +56,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.baeldung" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soumi\Documents\GitHub\in30Minutes\vertx\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MockExampleTest">
-    <configuration name="MathApplicationTester.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.HelloVerticle">
+    <configuration name="HelloVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.HelloVerticle" />
       <module name="vertx" />
       <extension name="coverage">
         <pattern>
@@ -73,30 +81,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.MathApplicationTester" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyFirstExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vertx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="PATTERN" value="vertx.example.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.MockExampleTest" />
+      <option name="PACKAGE_NAME" value="vertx.example.test" />
+      <option name="MAIN_CLASS_NAME" value="vertx.example.test.MyFirstExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockExampleTest.testExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestServiceVerticleUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vertx" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +109,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.baeldung" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.MockExampleTest" />
-      <option name="METHOD_NAME" value="testExample" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.RestServiceVerticleUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestServiceVerticleUnitTest.qr_whenReceived_thenSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.RestServiceVerticleUnitTest" />
+      <option name="METHOD_NAME" value="qr_whenReceived_thenSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockExampleTest.testExampleService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestServiceVerticleUnitTest.testQRCodeGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vertx" />
       <extension name="coverage">
         <pattern>
@@ -121,43 +140,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.baeldung" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.MockExampleTest" />
-      <option name="METHOD_NAME" value="testExampleService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTestClass.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vertx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baeldung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.MyTestClass" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.RestServiceVerticleUnitTest" />
+      <option name="METHOD_NAME" value="testQRCodeGen" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MathApplicationTester.testAdd" />
-      <item itemvalue="JUnit.MyTestClass.firstTest" />
-      <item itemvalue="JUnit.MockExampleTest" />
-      <item itemvalue="JUnit.MockExampleTest.testExample" />
-      <item itemvalue="JUnit.MockExampleTest.testExampleService" />
+      <item itemvalue="Application.HelloVerticle" />
+      <item itemvalue="JUnit.MyFirstExampleTest" />
+      <item itemvalue="JUnit.RestServiceVerticleUnitTest" />
+      <item itemvalue="JUnit.RestServiceVerticleUnitTest.qr_whenReceived_thenSuccess" />
+      <item itemvalue="JUnit.RestServiceVerticleUnitTest.testQRCodeGen" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockExampleTest" />
-        <item itemvalue="JUnit.MockExampleTest.testExample" />
-        <item itemvalue="JUnit.MockExampleTest.testExampleService" />
-        <item itemvalue="JUnit.MathApplicationTester.testAdd" />
-        <item itemvalue="JUnit.MyTestClass.firstTest" />
+        <item itemvalue="Application.HelloVerticle" />
+        <item itemvalue="JUnit.RestServiceVerticleUnitTest.testQRCodeGen" />
+        <item itemvalue="JUnit.RestServiceVerticleUnitTest" />
+        <item itemvalue="JUnit.RestServiceVerticleUnitTest.qr_whenReceived_thenSuccess" />
+        <item itemvalue="JUnit.MyFirstExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +188,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1598853824383">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1599329343612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1598853824383" />
-    <state x="172" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599115712085">
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599329343612" />
+    <state x="172" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599328630909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="172" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599115712085" />
+    <state x="172" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599328630909" />
     <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598950044835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -201,62 +204,66 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598868728261" />
-    <state x="404" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1599325162697">
+    <state x="404" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1599330491076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1599325162697" />
-    <state x="438" y="67" key="#xdebugger.evaluate" timestamp="1599324423080">
+    <state x="404" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1599330491076" />
+    <state x="438" y="67" key="#xdebugger.evaluate" timestamp="1600664345062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="438" y="67" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1599324423080" />
+    <state x="438" y="67" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1600664345062" />
     <state width="452" height="466" key="DebuggerActiveHint" timestamp="1599318879708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="452" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1599318879708" />
-    <state x="463" y="81" key="FileChooserDialogImpl" timestamp="1599325057366">
+    <state x="463" y="81" key="FileChooserDialogImpl" timestamp="1599826625040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="81" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599325057366" />
-    <state width="1323" height="288" key="GridCell.Tab.0.bottom" timestamp="1599324460136">
+    <state x="463" y="81" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599826625040" />
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom" timestamp="1600666188177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state width="1323" height="288" key="GridCell.Tab.0.center" timestamp="1599324460136">
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600666188177" />
+    <state width="1323" height="218" key="GridCell.Tab.0.center" timestamp="1600666188177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state width="1323" height="288" key="GridCell.Tab.0.left" timestamp="1599324460136">
+    <state width="1323" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600666188177" />
+    <state width="1323" height="218" key="GridCell.Tab.0.left" timestamp="1600666188177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state width="1323" height="288" key="GridCell.Tab.0.right" timestamp="1599324460136">
+    <state width="1323" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600666188177" />
+    <state width="1323" height="218" key="GridCell.Tab.0.right" timestamp="1600666188177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state width="1323" height="288" key="GridCell.Tab.1.bottom" timestamp="1599324460136">
+    <state width="1323" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600666188177" />
+    <state width="1323" height="218" key="GridCell.Tab.1.bottom" timestamp="1600666187948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state width="1323" height="288" key="GridCell.Tab.1.center" timestamp="1599324460136">
+    <state width="1323" height="218" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600666187948" />
+    <state width="1323" height="218" key="GridCell.Tab.1.center" timestamp="1600666187948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state width="1323" height="288" key="GridCell.Tab.1.left" timestamp="1599324460136">
+    <state width="1323" height="218" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600666187948" />
+    <state width="1323" height="218" key="GridCell.Tab.1.left" timestamp="1600666187948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state width="1323" height="288" key="GridCell.Tab.1.right" timestamp="1599324460136">
+    <state width="1323" height="218" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600666187948" />
+    <state width="1323" height="218" key="GridCell.Tab.1.right" timestamp="1600666187948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599324460136" />
-    <state x="348" y="68" key="NewModule_or_Project.wizard" timestamp="1599325061727">
+    <state width="1323" height="218" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600666187948" />
+    <state x="263" y="107" key="IDE.errors.dialog" timestamp="1599329383801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="348" y="68" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1599325061727" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1599324879049">
+    <state x="263" y="107" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1599329383801" />
+    <state x="348" y="68" key="NewModule_or_Project.wizard" timestamp="1599826634871">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599324879049" />
+    <state x="348" y="68" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1599826634871" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1599330511959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599330511959" />
     <state x="404" y="109" width="570" height="524" key="StructurePopup" timestamp="1599193540011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -269,10 +276,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="218" y="99" width="930" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1598952384195" />
+    <state x="413" y="125" key="extract.method.dialog" timestamp="1599796671764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="125" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1599796671764" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1598954808070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598954808070" />
+    <state x="65" y="25" key="new project wizard" timestamp="1599826533152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599826533152" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1598953928976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -285,10 +300,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="5" />
-        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.0-beta1/log4j-api-2.0-beta1.jar!/org/apache/logging/log4j/LogManager.class</url>
           <line>127</line>
@@ -301,12 +312,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/rest/RestServiceVerticle.java</url>
-          <line>46</line>
+          <line>142</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/rest/RestServiceVerticle.java</url>
-          <line>42</line>
+          <line>138</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -343,6 +354,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/UtilTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/baeldung/RestServiceVerticleUnitTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/vertx/example/test/MyFirstExampleTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/vertx/example/test/MyFirstExampleTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/baeldung/RestServiceVerticleUnitTest.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/rest/RestServiceVerticle.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/rest/RestServiceVerticle.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/baeldung/rest/RestServiceVerticle.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

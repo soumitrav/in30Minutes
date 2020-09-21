@@ -3,10 +3,9 @@ package com.baeldung;
 import java.io.IOException;
 import java.net.ServerSocket;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import io.vertx.core.http.HttpClient;
+import io.vertx.core.http.HttpClientRequest;
+import org.junit.*;
 import org.junit.runner.RunWith;
 
 import com.baeldung.rest.RestServiceVerticle;
@@ -60,6 +59,35 @@ public class RestServiceVerticleUnitTest {
                     async.complete();
                 });
             });
+    }
+
+    @Test
+    public void qr_whenReceived_thenSuccess(TestContext testContext) {
+        //final Async async = testContext.async();
+        vertx.createHttpClient()
+                .getNow(port, "localhost", "/api/qrcode", response -> {
+                    response.handler(responseBody -> {
+                        /*testContext.assertTrue(responseBody.toString()
+                                .contains("\"id\" : \"100\""));*/
+                        Assert.assertTrue(responseBody.getBytes().length >0);
+                        //async.complete();
+                    });
+                });
+    }
+
+
+
+    @Test
+    public void testQRCodeGen(TestContext context){
+        Async async1 = context.async();
+        HttpClient client = vertx.createHttpClient();
+        HttpClientRequest req = client.get(port, "localhost", "/api/qrcode");
+        req.exceptionHandler(err -> context.fail(err.getMessage()));
+        req.handler(resp -> {
+            context.assertEquals(200, resp.statusCode());
+            async1.complete();
+        });
+        req.end();
     }
 
 }
